@@ -1,0 +1,83 @@
+.sign_body {
+background:none repeat scroll 0 0 #F0FAF1;
+text-align:left;
+width:100%;
+}
+
+.sign_top  {
+background:none repeat scroll 0 0 #F0FAF1;
+height:500px;
+text-align:center;
+width:100%;
+}
+html, div, map, dt, isindex, form {
+display:block;
+}
+
+address, blockquote, body, caption, center, col, colgroup, dd, dir, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, isindex, li, listing, map, marquee, menu, noframes, ol, p, plaintext, pre, table, tbody, td, tfoot, th, thead, tr, ul, xmp {
+unicode-bidi:embed;
+}
+
+.sign_blk {
+padding:160px;
+text-align:left;
+width:480px;
+}
+
+form {
+margin:0;
+padding:0;
+}
+
+.sign_form {
+float:right;
+height:160px;
+line-height:26px;
+width:260px;
+}
+
+h2 {
+color:#D01F3C;
+font-family:Arial;
+font-size:16px;
+margin:0 0 2px;
+padding:0;
+}
+
+.logform  {
+height:16px;
+margin-top:2px;
+width:180px;
+}
+input:-moz-read-write, textarea:-moz-read-write {
+-moz-user-modify:read-write !important;
+}
+
+element.style  {
+background-color:#DDDDDD;
+border:1px solid #AAAAAA;
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:5px 0 0 140px;
+width:70px;
+}
+
+
+.underline {
+text-decoration:underline;
+}
+
+
+.sign_logo {
+border-right:1px solid #CCCCCC;
+height:160px;
+width:200px;
+}
+
+.sign_logo p {
+margin:5px 0 0 13px;
+}
+.gray {
+color:gray;
+}

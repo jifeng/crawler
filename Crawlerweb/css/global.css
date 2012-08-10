@@ -1,0 +1,119 @@
+/*
+Comsenz官方站
+(C) 2001-2006 Comsenz Inc.
+http://www.comsenz.com
+*/
+
+/*初始化*/
+
+h1, h2, h3, h4, h5, h6, h7, p, ul, ol, dl, dt, dd, li, body, form, input, button, img, cite, strong, em, table, td, th { padding:0; margin:0;}
+h1, h2, h3, h4, h5, h6, h7 { font-size:14px; font-weight:bold;}
+img, table, td, th { border:0;}
+ul, ol { list-style-type:none;}
+a { color:#0097CC; text-decoration:underline;}
+a:hover { color:#51B400; text-decoration:underline;}
+body { font:12px Arial, "宋体", Verdana, sans-serif;}
+
+/*css sprites*/
+
+#head #menu, .topa.here, .topa:hover, .topa#menu_home, .topa#menu_home.here, .topa#menu_home:hover, #head #logo, #topnav { background-image:url(../images/top_bg.jpg); background-repeat:no-repeat;}
+#head, #menu li, #foot, #left_news_head li, #right_news_head li, #left #description #description_head li { background-image:url(../images/line_bg.jpg); background-repeat:repeat-x;}
+#menu li#search input.submit, #banner_title li a:hover, #banner_title li a.slidenow, .company #left #comsenz_join input.submit { background-image:url(../images/icon_bg.gif); background-repeat:no-repeat;}
+#comsenznews #leftbox, #left_news_head li a.head_first, #right_news_head li a.head_first, #comsenznews #rightbox, #slide #banner_title, #left #description #description_head li a:hover, #left #description #description_head li a.here, #left #description #description_head li a#description_first.here, #left #description #description_head li a#description_first:hover { background:url(../images/index_bg.jpg); background-repeat:no-repeat;}
+
+/*头部*/
+
+#head { width:100%; height:105px; background-position:left -41px;}
+    #head #logo { width:950px; height:71px; background-position:left -66px;}
+	    #head #logo h1 { float:left;}
+	    #head #logo p { float:right; margin-right:50px; margin-top:28px;}
+		    #head #logo p a { color:#94a4c2;}
+		    #head #logo p a strong { font-weight:normal;}
+			#head #logo p em { padding:0 10px;}
+	#head #menu { width:950px; height:33px; background-position:left -33px; white-space:nowrap; position:relative; z-index:100;}
+        #menu li { float:left; width:84px; height:33px; background-position:right top; background-repeat:no-repeat;}
+		    .topa { color:#fff; display:block; font-size:12px; font-weight:bold; text-decoration:none; padding:10px; text-align:center;}
+			.topa.here, .topa:hover { color:#000; background-position:-168px top;}
+			#menu li#search { width:236px; float:right; padding-top:5px; position:relative; background:none;}
+			    #menu li#search input { width:150px; position:absolute; top:6px; font-size:12px; padding:4px 2px 0 3px; color:#666; border:1px solid #065387; height:16px;}
+				#menu li#search input.submit { position:absolute; top:6px; left:160px; height:21px; border:0; color:#fff; font-weight:600; padding:2px 0 1px 0; width:59px; background-position:left top; cursor:pointer;}
+				.topa#menu_home { background-position:left -33px;}
+				.topa#menu_home.here, .topa#menu_home:hover { background-position:left top;}
+				.topa#idc { padding:10px 15px;}
+
+
+.downnav a{ color:#000000; display:block; font-size:12px; text-decoration:none; text-align:center;}				
+/*底部信息*/
+
+#foot { width:100%; height:70px; margin-top:20px; overflow:hidden; background-position:left -196px;}
+    #foot div { width:950px; margin:0 auto; padding-top:20px;}
+    #foot p#comsenzservice { float:left;}
+	#foot p#message, #foot p#copy { float:right;}
+	#foot p#copy { clear:both; white-space:nowrap; margin-top:5px;}
+	#foot em { padding:0 10px; color:#666;}
+
+/*统一样式*/
+
+#head, #head #logo, #head #menu { margin:0 auto;}
+
+#head #logo { overflow:hidden;}
+
+#head #logo p a strong, #foot p#comsenzservice strong { color:#0097CC;}
+
+#head #logo p a, #foot p#comsenzservice a { text-decoration:none;} 
+
+#foot p#comsenzservice a, #foot p#copy { color:#4c5a62;}
+
+
+
+#login_2{
+display:none;
+/*border:1px solid #000000;*/
+margin-top:30px;
+height:30px;
+width:400px;
+margin-left:auto;
+margin-right:0px;
+}
+/*
+#login_2 table td{
+border:#000000 1px solid;
+}
+*/
+#form input{
+width:100px;
+height:auto;
+font-family:Arial, Helvetica, sans-serif;
+border:#0000FF 1px dashed;
+}
+#form table{
+float:right;
+}
+
+#login_1{
+display:block;
+}
+
+
+
+
+/*用于处理下拉菜单的*/
+.downnav{
+background:#C3E8FF;
+width:auto;
+height:auto;
+position:absolute;
+margin-top:0;
+z-index:100;
+display:none;
+}
+.downnav td{
+text-align:center;
+width:100px;
+height:20px;
+padding:5px;
+border-bottom:#FFFFFF 1px solid;
+}
+.downnav tr td:hover{
+background: #53B3F7;
+}
